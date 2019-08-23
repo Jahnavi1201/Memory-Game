@@ -255,7 +255,7 @@ h1 {
   height: auto;
   font-family: cursive;
   font-size: 20pt;
-  float: center
+  float: center;
 }
 
 /*Styles for the Close Button */
@@ -345,15 +345,13 @@ h1 {
 @media screen and (min-width:320px) and (max-width:500px){
   .deck{
     width:90vw;
-    height:500px;
+    min-height:400px;
     padding: 5px;
-    margin:0px;
-    margin-bottom: 10px;
     justify-content: space-around;
   }
   .deck .card {
-    height: 75px;
-    width: 75px;
+    height: 65px;
+    width: 65px;
     margin:5px;
   }
  .score-panel{
